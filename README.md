@@ -19,4 +19,4 @@ Objective:
 4) PID control augmented with NDO(Non linear disturbance observer)
 
 
-5)Speech recognition based trajectory selector  :- Stft images of audio and then classifying by implementing classification
+5)Speech recognition based trajectory selector  :- Stft images of audio and then classifying them by implementing deep learning model.
