@@ -77,14 +77,16 @@ function animate(data, model, thrusts, plots)
         subplot(plots(2));
         multiplot(data, data.x, t);
         xlabel('Time (ms)');
-        ylabel('Positin (rad/s)');
+        ylabel('Positin (meters)');
         title('Position');
+        legend('x', 'y','z');
 
         subplot(plots(3));
         multiplot(data, data.sig, t);
         xlabel('Time (s)');
         ylabel('Mrp');
         title('Modfied Rodrigues Parameter');
+        legend('${\sigma}_1$', '${\sigma}_2$','${\sigma}_3$','Interpreter','latex');
     end
 end
 
